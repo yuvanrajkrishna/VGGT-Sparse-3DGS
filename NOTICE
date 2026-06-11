@@ -1,0 +1,11 @@
+This repository contains code under multiple licenses:
+
+1. Original code (pipelines/, scripts/, eval/, configs/, patches/): Apache-2.0 (LICENSE).
+2. repos/gaussian-splatting/: fork of graphdeco-inria/gaussian-splatting,
+   (c) Inria and MPII — "Gaussian-Splatting License", non-commercial research use only
+   (repos/gaussian-splatting/LICENSE.md). Our modifications (confidence-seeded opacity
+   initialization, confidence sidecar loading, evaluation plumbing) are contributed
+   under the same license terms.
+3. VGGT (installed from github.com/facebookresearch/vggt): Meta VGGT License.
+4. diff-gaussian-rasterization / simple-knn (built from upstream): their respective
+   upstream licenses (Inria/MPII).

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+outputs*/
+data/
+*.pdf
+.venv/
+ckpt/

@@ -1,0 +1,27 @@
+seed: 0
+
+output_root: ./outputs_spcom_camera_ready
+
+gaussian_repo: ./repos/gaussian-splatting
+vggt:
+  repo: ./repos/vggt
+  checkpoint: facebook/VGGT-1B
+  batch_size: 6
+  point_subsample: 20
+
+colmap:
+  threads: 8
+  cpu: false
+
+sparse_views: [3, 6, 9, 12]
+
+resolution: 8
+
+datasets:
+  mipnerf360:
+    root: ./data/mipnerf360
+    outdoor_scenes: [bicycle, garden, stump]
+    indoor_scenes: [bonsai, counter, kitchen, room]
+    images_subdir:
+      outdoor: images
+      indoor: images

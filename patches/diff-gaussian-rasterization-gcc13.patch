@@ -1,0 +1,19 @@
+diff --git a/cuda_rasterizer/rasterizer_impl.h b/cuda_rasterizer/rasterizer_impl.h
+index bc3f0ec..9f7b06e 100644
+--- a/cuda_rasterizer/rasterizer_impl.h
++++ b/cuda_rasterizer/rasterizer_impl.h
+@@ -13,6 +13,7 @@
+ 
+ #include <iostream>
+ #include <vector>
++#include <cstdint>
+ #include "rasterizer.h"
+ #include <cuda_runtime_api.h>
+ 
+@@ -71,4 +72,4 @@ namespace CudaRasterizer
+ 		T::fromChunk(size, P);
+ 		return ((size_t)size) + 128;
+ 	}
+-};
+\ No newline at end of file
++};
