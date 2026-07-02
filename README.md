@@ -22,8 +22,8 @@ Sparse-view 3D Gaussian Splatting fails when COLMAP cannot initialize — at 3 t
 ## Installation
 
 ```bash
-git clone https://github.com/<org>/<repo>.git
-cd <repo>
+git clone https://github.com/yuvanrajkrishna/VGGT-Sparse-3DGS.git
+cd VGGT-Sparse-3DGS
 
 conda create -n vggt3dgs python=3.12 -y && conda activate vggt3dgs
 pip install -r requirements.txt
