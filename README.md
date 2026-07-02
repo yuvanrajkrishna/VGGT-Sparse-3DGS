@@ -30,7 +30,7 @@ pip install -r requirements.txt
 git clone https://github.com/facebookresearch/vggt.git repos/vggt && pip install -e repos/vggt   # VGGT-1B downloads from HF on first run
 
 # 3DGS CUDA extensions (upstream submodules of the vendored fork)
-git clone https://github.com/graphdeco-inria/diff-gaussian-rasterization --recursive
+git clone -b dr_aa https://github.com/graphdeco-inria/diff-gaussian-rasterization --recursive
 git -C diff-gaussian-rasterization apply ../patches/diff-gaussian-rasterization-gcc13.patch  # GCC ≥ 13 fix
 pip install ./diff-gaussian-rasterization
 pip install git+https://gitlab.inria.fr/bkerbl/simple-knn.git
