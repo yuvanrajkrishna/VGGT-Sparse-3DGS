@@ -5,7 +5,7 @@
 [![Paper](https://img.shields.io/badge/Paper-SPCOM%202026-blue)](#citation)
 [![License](https://img.shields.io/badge/Code%20License-Apache--2.0-green)](LICENSE)
 
-**Shreeya Venkatraman\* · Yuvan Raj Krishna\* · Jiji C.V.**
+**Shreeya Venkatraman\* · Yuvan Raj Krishna\* · Jiji C V**
 
 Dept. of CSE, Shiv Nadar University Chennai
 
@@ -72,7 +72,7 @@ Per-scene results land in `outputs_spcom_camera_ready/paper_eval/.../results.jso
 ```bibtex
 @inproceedings{venkatraman2026vggt,
   title     = {{VGGT}-Based {COLMAP}-Free Initialization for Sparse-View {3D} Gaussian Splatting},
-  author    = {Venkatraman, Shreeya and Krishna, Yuvan Raj and C.V., Jiji},
+  author    = {Venkatraman, Shreeya and Krishna, Yuvan Raj and C V, Jiji},
   booktitle = {Proc. IEEE SPCOM},
   year      = {2026}
 }
