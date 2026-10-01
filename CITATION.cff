@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "VGGT-Sparse-3DGS"
+license: Apache-2.0
+repository-code: "https://github.com/yuvanrajkrishna/VGGT-Sparse-3DGS"
+authors:
+  - family-names: Venkatraman
+    given-names: Shreeya
+  - family-names: Krishna
+    given-names: Yuvan Raj
+  - family-names: "C V"
+    given-names: Jiji
+preferred-citation:
+  type: conference-paper
+  title: "VGGT-Based COLMAP-Free Initialization for Sparse-View 3D Gaussian Splatting"
+  authors:
+    - family-names: Venkatraman
+      given-names: Shreeya
+    - family-names: Krishna
+      given-names: Yuvan Raj
+    - family-names: "C V"
+      given-names: Jiji
+  collection-title: "Proceedings of the IEEE International Conference on Signal Processing and Communications (SPCOM)"
+  year: 2026
